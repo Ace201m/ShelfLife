@@ -1,4 +1,3 @@
-####SHELF LIFE####
+###SHELF LIFE
 
-Created by-
-Abhsihek Kumar
+A social networking website based on django
