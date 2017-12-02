@@ -1,0 +1,296 @@
+{% extends 'base.html' %}
+
+{% block title %}
+	Profile | {{ user.first_name }}
+{% endblock %}
+{% block style %}
+    <style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Open Sans", sans-serif}
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+    .footer {
+    background-color: rgb(200,200,200);
+    height: 115px;
+    position:absolute; bottom:0px;
+}
+</style>
+{% endblock %}
+{% block body %}
+    <!--
+	<div class="container">
+		<div class="page-header">
+			{{ user.first_name }} {{ user.last_name }}
+		</div>
+		<div class="container">
+			<img src="{{user.image.url}}" height="100px" width="100px">
+		</div>
+	</div>-->
+    <body class="w3-theme-l5">
+
+
+<!-- Page Container -->
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+  <!-- The Grid -->
+  <div class="w3-row">
+    <!-- Left Column -->
+    <div class="w3-col m3">
+      <!-- Profile -->
+      <div class="w3-card w3-round w3-white">
+        <div class="w3-container">
+         <h4 class="w3-center">My Shelf</h4>
+         <p class="w3-center"><img src={{ user.image.url }} class="w3-circle" style="height:106px;width:106px" alt="Profile picture not found"></p>
+         <hr>
+         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> {{ user.first_name }} {{ user.last_name }}</p>
+        </div>
+      </div>
+      <br>
+
+      <!-- Accordion -->
+      <div class="w3-card w3-round">
+        <div class="w3-white">
+          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-headphones fa-fw w3-margin-right"></i> My Music</button>
+          <div id="Demo1" class="w3-hide w3-container">
+            <p>Some text..</p>
+          </div>
+          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-youtube-play fa-fw w3-margin-right"></i> My Movies</button>
+          <div id="Demo2" class="w3-hide w3-container">
+            <p>Some other text..</p>
+          </div>
+          <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-camera-retro fa-fw w3-margin-right"></i> My Photos</button>
+          <div id="Demo3" class="w3-hide w3-container">
+         <div class="w3-row-padding">
+         <br>
+           <div class="w3-half">
+             <img src="/w3images/lights.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/mountains.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/forest.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+             <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+           <div class="w3-half">
+             <img src="/w3images/fjords.jpg" style="width:100%" class="w3-margin-bottom">
+           </div>
+         </div>
+          </div>
+        </div>
+      </div>
+      <br>
+
+
+    <!-- End Left Column -->
+    </div>
+
+  <script>
+        function play(id) {
+                  var link = document.getElementById(id);
+                  var but = document.getElementById(id+"button");
+                  if(link.paused){
+                      but.innerHTML="PAUSE";
+                      link.play();
+                        }else {
+                      link.pause();
+                      but.innerHTML="PLAY";
+                  }
+        }
+        function liker(ele,liked_by, item) {
+            var counter = [];
+            var found = true;
+            for(var i =0;i<liked_by.split(',').length;i++){
+                counter.push(i);
+                if(liked_by.split(',')[i] === item){
+                    var like = document.getElementById(ele.id);
+                    like.innerHTML = "<i class=\"fa fa-thumbs-up\"></i>  Liked";
+                    like.disabled = true;
+                    found= false;
+                }
+            }
+            counter = Array.from(new Set(counter));
+            document.getElementById(ele.id+" text").innerHTML = String(counter.length-1) + " People Likes This.";
+            if(found)
+                document.getElementById(ele.id).innerHTML = "<i class=\"fa fa-thumbs-up\"></i> Like";
+        }
+    </script>
+    <!-- Middle Column -->
+    <div class="w3-col m7">
+
+    {% if context == "Timeline" %}
+      <div class="w3-row-padding">
+        <div class="w3-col m12">
+          <div class="w3-card w3-round w3-white">
+            <div class="w3-container w3-padding">
+              <h2 class="w3-opacity">{{ context }}</h2>
+                <form action="{% url 'basic:post' %}" method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Found something Fun :)</label>
+                        <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="message_text" placeholder="Would like to tell...">
+                        <small id="emailHelp" class="form-text text-muted">--> These post are public <--</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endif %}
+    {% if post %}
+        {% for i in post %}
+            {% if i.content == "messaages" %}
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <span class="w3-right w3-opacity">{{ i.message_date }}</span>
+        <h2>{{ i.sender }}</h2><br>
+          {% if i.reciever != "None" %}
+              {% endif %}
+        <hr class="w3-clear">
+          <div class="w3-row-padding" style="margin:10px">
+            <div class="w3-half">
+                <div class="jumbotron">
+                <p>{{ i.message_text }}</p>
+                </div>
+            </div>
+        </div>
+      <a id="{{ i.id }} message" onmouseenter="liker(this, '{{ i.liked_by }}', '{{ user.usr }}')" href="{% url 'basic:like' i.content i.id %}" class="btn btn-info"><i class="fa fa-thumbs-up"></i>  Like</a>
+      <p id="{{ i.id }} message text"></p>
+      </div>
+            {% endif %}
+            {% if i.content == "music" %}
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <span class="w3-right w3-opacity">{{ i.category }}</span>
+        <h2>{{ i.songs_name }}</h2><br>
+        <h4>&nbsp;&nbsp;&nbsp;&nbsp;By {{ i.songs_singer }}</h4>
+          <h6>posted by - {{ i.posted_by }}</h6>
+        <hr class="w3-clear">
+          <div class="w3-row-padding" style="margin:10px">
+            <div class="w3-half">
+                <!--<progress id="{{ i.id }} song seek" class="hp-range"></progress>-->
+                <br>
+                <button class="w3-button w3-theme" id="{{ i.id }}button" onclick="play({{ i.id }})">PLAY</button><audio src="{{ i.songs_file.url }}" id="{{ i.id }}">
+            </audio>
+            </div>
+        </div>
+      <a id="{{ i.id }} message" onmouseenter="liker(this, '{{ i.liked_by }}', '{{ user.usr }}')" href="{% url 'basic:like' i.content i.id %}" class="btn btn-info"><i class="fa fa-thumbs-up"></i>  Like</a>
+      <p id="{{ i.id }} message text"></p>
+      </div>
+            {% endif %}
+            {% if i.content == "movie" %}
+      <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <span class="w3-right w3-opacity">{{ i.category }}</span>
+          <h2>{{ i.movie_name }}</h2><br>
+        <h4>Directed by : {{ i.movie_director }}</h4><br>
+          <h6>posted by - {{ i.posted_by }}</h6>
+        <hr class="w3-clear">
+          <div class="w3-row-padding" style="margin:10px">
+            <div class="w3-half">
+                <iframe src="{{ i.movie_file.url }}" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+      <a id="{{ i.id }} message" onmouseenter="liker(this, '{{ i.liked_by }}', '{{ user.usr }}')" href="{% url 'basic:like' i.content i.id %}" class="btn btn-info"><i class="fa fa-thumbs-up"></i>  Like</a>
+      <p id="{{ i.id }} message text"></p>
+      </div>
+            {% endif %}
+        <!--<button type="button" class="w3-button w3-theme-d1 w3-margin-bottom"><i class="fa fa-thumbs-up"></i>  Like</button>-->
+          {% endfor %}
+        <p>&nbsp;</p>
+    {% elif feed %}
+        {% for i in feed %}
+            <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <span class="w3-right w3-opacity">{{ i.time }}</span>
+        <h2>{{ i.title }}</h2><br>
+        <hr class="w3-clear">
+          <div class="w3-row-padding" style="margin:10px">
+            <div class="w3-half">
+                <div class="jumbotron">
+                <p>{{ i.content }}</p>
+                </div>
+            </div>
+        </div>
+      </div>
+        {% endfor %}
+    {% else %}
+        <div class="w3-container w3-card w3-white w3-round w3-margin"><br>
+        <img src="#" class="w3-left w3-circle w3-margin-right" style="width:60px">
+        <h4>No posts yet</h4>
+<!--        <button type="button" class="w3-button w3-theme-d2 w3-margin-bottom"><i class="fa fa-comment"></i>  Comment</button> -->
+      </div>
+    {% endif %}
+
+    <!-- End Middle Column -->
+    </div>
+
+    <!-- Right Column
+    <div class="w3-col m3">
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Releasing c@@l stuff:</p>
+          <img src="######" alt="Dall denege" style="width:100%;">
+          <p><strong>####_____####</strong></p>
+          <p><button class="w3-button w3-block w3-theme-l4">Info</button></p>
+        </div>
+      </div>
+      <br>
+
+      <div class="w3-card w3-round w3-white w3-center">
+        <div class="w3-container">
+          <p>Friend Request</p>
+          <img src="/w3images/Deepansh6.png" alt="Deepansh" style="width:50%"><br>
+          <span>Jane Doe</span>
+          <div class="w3-row w3-opacity">
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-green w3-section" title="Accept"><i class="fa fa-check"></i></button>
+            </div>
+            <div class="w3-half">
+              <button class="w3-button w3-block w3-red w3-section" title="Decline"><i class="fa fa-remove"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>-->
+
+      <!--<div class="w3-card w3-round w3-white w3-padding-16 w3-center">
+        <p>ADS</p>
+      </div>
+      <br>
+
+      <div class="w3-card w3-round w3-white w3-padding-32 w3-center">
+        <p><i class="fa fa-bug w3-xxlarge"></i></p>
+      </div>
+	  -->
+
+    <!-- End Right Column -->
+    </div>
+
+  <!-- End Grid -->
+  </div>
+
+<!-- End Page Container -->
+</div>
+<br>
+
+<!-- Footer
+<footer class="w3-container w3-theme-d3 w3-padding-8 W3-Right">
+  <h6></h6>
+</footer>
+
+<footer class="w3-container w3-theme-d5 ">
+<div class="footer">
+  <p class="alignleft">Powered by Students of IIT BHU</p>
+  <p class="alignright">Copyright's issued by OUR TEAM</p>
+  <div style="clear: both"></div>
+</div>
+  </footer>-->
+    </body>
+{% endblock %}

@@ -1,0 +1,521 @@
+[Tue Aug 22 00:10:00.630950 2017] [authz_core:error] [pid 5496:tid 140636892165888] [client ::1:40974] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:10:00.785991 2017] [authz_core:error] [pid 5496:tid 140636883773184] [client ::1:40974] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:11:28.165247 2017] [authz_core:error] [pid 5495:tid 140636892165888] [client ::1:40990] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:11:28.224175 2017] [authz_core:error] [pid 5495:tid 140636883773184] [client ::1:40990] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:12:44.856423 2017] [authz_core:error] [pid 5495:tid 140636875380480] [client ::1:41158] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:12:44.963504 2017] [authz_core:error] [pid 5495:tid 140636866987776] [client ::1:41158] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:15:03.009433 2017] [authz_core:error] [pid 6213:tid 139864467334912] [client ::1:41174] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:15:03.061849 2017] [authz_core:error] [pid 6213:tid 139864458942208] [client ::1:41174] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:15:06.007596 2017] [authz_core:error] [pid 6213:tid 139864450549504] [client ::1:41174] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:15:06.082979 2017] [authz_core:error] [pid 6213:tid 139864425371392] [client ::1:41174] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:15:12.252981 2017] [authz_core:error] [pid 6213:tid 139864433764096] [client ::1:41176] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:15:12.454697 2017] [authz_core:error] [pid 6213:tid 139864442156800] [client ::1:41176] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:16:22.928734 2017] [authz_core:error] [pid 6213:tid 139864416978688] [client ::1:41780] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:16:23.107683 2017] [authz_core:error] [pid 6213:tid 139864334923520] [client ::1:41780] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:16:23.997730 2017] [authz_core:error] [pid 6213:tid 139864326530816] [client ::1:41780] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:16:24.169102 2017] [authz_core:error] [pid 6213:tid 139864318138112] [client ::1:41780] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:17:55.084509 2017] [authz_core:error] [pid 6212:tid 139864467334912] [client ::1:42544] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/
+[Tue Aug 22 00:17:55.252796 2017] [authz_core:error] [pid 6212:tid 139864458942208] [client ::1:42544] AH01630: client denied by server configuration: /home/m2k/sem_3_project/django/final/final/favicon.ico, referer: http://localhost/
+[Tue Aug 22 00:28:12.571699 2017] [autoindex:error] [pid 6887:tid 140134281254656] [client ::1:46746] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:28:14.771408 2017] [autoindex:error] [pid 6887:tid 140134272861952] [client ::1:46746] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:28:14.950044 2017] [autoindex:error] [pid 6887:tid 140134264469248] [client ::1:46746] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:28:15.099160 2017] [autoindex:error] [pid 6887:tid 140134256076544] [client ::1:46746] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:28:15.282404 2017] [autoindex:error] [pid 6887:tid 140134179665664] [client ::1:46746] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:41.397712 2017] [autoindex:error] [pid 7060:tid 140365982308096] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:42.486325 2017] [autoindex:error] [pid 7060:tid 140365906573056] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:42.672396 2017] [autoindex:error] [pid 7060:tid 140365898180352] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:42.838528 2017] [autoindex:error] [pid 7060:tid 140365881394944] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:42.986863 2017] [autoindex:error] [pid 7060:tid 140365889787648] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:43.166106 2017] [autoindex:error] [pid 7060:tid 140365873002240] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:43.309054 2017] [autoindex:error] [pid 7060:tid 140365864609536] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:30:43.472140 2017] [autoindex:error] [pid 7060:tid 140365856216832] [client ::1:46750] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:23.842169 2017] [autoindex:error] [pid 7249:tid 140498028640000] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:24.618737 2017] [autoindex:error] [pid 7249:tid 140498020247296] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:24.813455 2017] [autoindex:error] [pid 7249:tid 140498003461888] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:24.970727 2017] [autoindex:error] [pid 7249:tid 140498011854592] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:25.121726 2017] [autoindex:error] [pid 7249:tid 140497995069184] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:25.250850 2017] [autoindex:error] [pid 7249:tid 140497986676480] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:32:25.417723 2017] [autoindex:error] [pid 7249:tid 140497909708544] [client ::1:46756] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:03.098381 2017] [autoindex:error] [pid 7575:tid 140229272925952] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:03.738829 2017] [autoindex:error] [pid 7575:tid 140229264533248] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:03.912126 2017] [autoindex:error] [pid 7575:tid 140229256140544] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:04.069595 2017] [autoindex:error] [pid 7575:tid 140229247747840] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:04.217853 2017] [autoindex:error] [pid 7575:tid 140229239355136] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:04.365824 2017] [autoindex:error] [pid 7575:tid 140229230962432] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:04.546636 2017] [autoindex:error] [pid 7575:tid 140229222569728] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:39:04.733264 2017] [autoindex:error] [pid 7575:tid 140229214177024] [client ::1:46866] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:41:16.489856 2017] [autoindex:error] [pid 7737:tid 140572449269504] [client ::1:46872] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:41:16.702005 2017] [autoindex:error] [pid 7737:tid 140572440876800] [client ::1:46872] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:41:16.900880 2017] [autoindex:error] [pid 7737:tid 140572432484096] [client ::1:46872] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:41:17.044573 2017] [autoindex:error] [pid 7737:tid 140572424091392] [client ::1:46872] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:41:17.206887 2017] [autoindex:error] [pid 7737:tid 140572415698688] [client ::1:46872] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:11.896982 2017] [autoindex:error] [pid 7918:tid 140675477157632] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:12.645409 2017] [autoindex:error] [pid 7918:tid 140675468764928] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:12.815386 2017] [autoindex:error] [pid 7918:tid 140675460372224] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:13.002175 2017] [autoindex:error] [pid 7918:tid 140675451979520] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:13.182353 2017] [autoindex:error] [pid 7918:tid 140675443586816] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:13.342730 2017] [autoindex:error] [pid 7918:tid 140675435194112] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:13.512262 2017] [autoindex:error] [pid 7918:tid 140675426801408] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:43:13.878064 2017] [autoindex:error] [pid 7918:tid 140675337152256] [client ::1:46904] AH01276: Cannot serve directory /home/m2k/sem_3_project/django/final/final/: No matching DirectoryIndex (index.html,index.cgi,index.pl,index.php,index.xhtml,index.htm) found, and server-generated directory index forbidden by Options directive
+[Tue Aug 22 00:44:45.499499 2017] [wsgi:error] [pid 8065:tid 140183813814016] [client ::1:46910] mod_wsgi (pid=8065): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:44:45.499622 2017] [wsgi:error] [pid 8065:tid 140183813814016] [client ::1:46910] mod_wsgi (pid=8065): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:44:45.499694 2017] [wsgi:error] [pid 8065:tid 140183813814016] [client ::1:46910] Traceback (most recent call last):
+[Tue Aug 22 00:44:45.499764 2017] [wsgi:error] [pid 8065:tid 140183813814016] [client ::1:46910]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 11, in <module>
+[Tue Aug 22 00:44:45.499917 2017] [wsgi:error] [pid 8065:tid 140183813814016] [client ::1:46910]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:44:45.499980 2017] [wsgi:error] [pid 8065:tid 140183813814016] [client ::1:46910] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:45:05.605653 2017] [wsgi:error] [pid 8066:tid 140183805421312] [client ::1:46930] mod_wsgi (pid=8066): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:45:05.605707 2017] [wsgi:error] [pid 8066:tid 140183805421312] [client ::1:46930] mod_wsgi (pid=8066): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:45:05.605730 2017] [wsgi:error] [pid 8066:tid 140183805421312] [client ::1:46930] Traceback (most recent call last):
+[Tue Aug 22 00:45:05.605756 2017] [wsgi:error] [pid 8066:tid 140183805421312] [client ::1:46930]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 11, in <module>
+[Tue Aug 22 00:45:05.605821 2017] [wsgi:error] [pid 8066:tid 140183805421312] [client ::1:46930]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:45:05.605844 2017] [wsgi:error] [pid 8066:tid 140183805421312] [client ::1:46930] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:32.680786 2017] [wsgi:error] [pid 8407:tid 140350941296384] [client ::1:48186] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:32.680925 2017] [wsgi:error] [pid 8407:tid 140350941296384] [client ::1:48186] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:32.681016 2017] [wsgi:error] [pid 8407:tid 140350941296384] [client ::1:48186] Traceback (most recent call last):
+[Tue Aug 22 00:47:32.681085 2017] [wsgi:error] [pid 8407:tid 140350941296384] [client ::1:48186]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:32.681276 2017] [wsgi:error] [pid 8407:tid 140350941296384] [client ::1:48186]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:32.681495 2017] [wsgi:error] [pid 8407:tid 140350941296384] [client ::1:48186] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:33.538582 2017] [wsgi:error] [pid 8408:tid 140350941296384] [client ::1:48196] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:33.538704 2017] [wsgi:error] [pid 8408:tid 140350941296384] [client ::1:48196] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:33.538840 2017] [wsgi:error] [pid 8408:tid 140350941296384] [client ::1:48196] Traceback (most recent call last):
+[Tue Aug 22 00:47:33.538923 2017] [wsgi:error] [pid 8408:tid 140350941296384] [client ::1:48196]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:33.539197 2017] [wsgi:error] [pid 8408:tid 140350941296384] [client ::1:48196]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:33.539262 2017] [wsgi:error] [pid 8408:tid 140350941296384] [client ::1:48196] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:33.816132 2017] [wsgi:error] [pid 8407:tid 140350932903680] [client ::1:48198] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:33.816223 2017] [wsgi:error] [pid 8407:tid 140350932903680] [client ::1:48198] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:33.816286 2017] [wsgi:error] [pid 8407:tid 140350932903680] [client ::1:48198] Traceback (most recent call last):
+[Tue Aug 22 00:47:33.816346 2017] [wsgi:error] [pid 8407:tid 140350932903680] [client ::1:48198]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:33.816427 2017] [wsgi:error] [pid 8407:tid 140350932903680] [client ::1:48198]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:33.816484 2017] [wsgi:error] [pid 8407:tid 140350932903680] [client ::1:48198] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:34.008527 2017] [wsgi:error] [pid 8408:tid 140350932903680] [client ::1:48200] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:34.008609 2017] [wsgi:error] [pid 8408:tid 140350932903680] [client ::1:48200] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:34.008669 2017] [wsgi:error] [pid 8408:tid 140350932903680] [client ::1:48200] Traceback (most recent call last):
+[Tue Aug 22 00:47:34.008730 2017] [wsgi:error] [pid 8408:tid 140350932903680] [client ::1:48200]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:34.008906 2017] [wsgi:error] [pid 8408:tid 140350932903680] [client ::1:48200]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:34.009046 2017] [wsgi:error] [pid 8408:tid 140350932903680] [client ::1:48200] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:34.273646 2017] [wsgi:error] [pid 8407:tid 140350924510976] [client ::1:48210] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:34.273741 2017] [wsgi:error] [pid 8407:tid 140350924510976] [client ::1:48210] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:34.273822 2017] [wsgi:error] [pid 8407:tid 140350924510976] [client ::1:48210] Traceback (most recent call last):
+[Tue Aug 22 00:47:34.273853 2017] [wsgi:error] [pid 8407:tid 140350924510976] [client ::1:48210]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:34.273923 2017] [wsgi:error] [pid 8407:tid 140350924510976] [client ::1:48210]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:34.273962 2017] [wsgi:error] [pid 8407:tid 140350924510976] [client ::1:48210] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:34.446328 2017] [wsgi:error] [pid 8407:tid 140350916118272] [client ::1:48212] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:34.446356 2017] [wsgi:error] [pid 8407:tid 140350916118272] [client ::1:48212] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:34.446377 2017] [wsgi:error] [pid 8407:tid 140350916118272] [client ::1:48212] Traceback (most recent call last):
+[Tue Aug 22 00:47:34.446407 2017] [wsgi:error] [pid 8407:tid 140350916118272] [client ::1:48212]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:34.446445 2017] [wsgi:error] [pid 8407:tid 140350916118272] [client ::1:48212]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:34.446468 2017] [wsgi:error] [pid 8407:tid 140350916118272] [client ::1:48212] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:34.646564 2017] [wsgi:error] [pid 8407:tid 140350907725568] [client ::1:48214] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:34.646587 2017] [wsgi:error] [pid 8407:tid 140350907725568] [client ::1:48214] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:34.646604 2017] [wsgi:error] [pid 8407:tid 140350907725568] [client ::1:48214] Traceback (most recent call last):
+[Tue Aug 22 00:47:34.646624 2017] [wsgi:error] [pid 8407:tid 140350907725568] [client ::1:48214]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:34.646651 2017] [wsgi:error] [pid 8407:tid 140350907725568] [client ::1:48214]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:34.646665 2017] [wsgi:error] [pid 8407:tid 140350907725568] [client ::1:48214] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:35.478527 2017] [wsgi:error] [pid 8408:tid 140350924510976] [client ::1:48224] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:35.478618 2017] [wsgi:error] [pid 8408:tid 140350924510976] [client ::1:48224] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:35.478690 2017] [wsgi:error] [pid 8408:tid 140350924510976] [client ::1:48224] Traceback (most recent call last):
+[Tue Aug 22 00:47:35.478756 2017] [wsgi:error] [pid 8408:tid 140350924510976] [client ::1:48224]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:35.478851 2017] [wsgi:error] [pid 8408:tid 140350924510976] [client ::1:48224]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:35.478912 2017] [wsgi:error] [pid 8408:tid 140350924510976] [client ::1:48224] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:36.413881 2017] [wsgi:error] [pid 8407:tid 140350899332864] [client ::1:48234] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:36.413954 2017] [wsgi:error] [pid 8407:tid 140350899332864] [client ::1:48234] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:36.414021 2017] [wsgi:error] [pid 8407:tid 140350899332864] [client ::1:48234] Traceback (most recent call last):
+[Tue Aug 22 00:47:36.414070 2017] [wsgi:error] [pid 8407:tid 140350899332864] [client ::1:48234]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:36.414139 2017] [wsgi:error] [pid 8407:tid 140350899332864] [client ::1:48234]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:36.414184 2017] [wsgi:error] [pid 8407:tid 140350899332864] [client ::1:48234] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:37.091687 2017] [wsgi:error] [pid 8407:tid 140350890940160] [client ::1:48244] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:37.091805 2017] [wsgi:error] [pid 8407:tid 140350890940160] [client ::1:48244] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:37.091875 2017] [wsgi:error] [pid 8407:tid 140350890940160] [client ::1:48244] Traceback (most recent call last):
+[Tue Aug 22 00:47:37.091947 2017] [wsgi:error] [pid 8407:tid 140350890940160] [client ::1:48244]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:37.092036 2017] [wsgi:error] [pid 8407:tid 140350890940160] [client ::1:48244]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:37.092095 2017] [wsgi:error] [pid 8407:tid 140350890940160] [client ::1:48244] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:37.464034 2017] [wsgi:error] [pid 8408:tid 140350916118272] [client ::1:48246] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:37.464327 2017] [wsgi:error] [pid 8408:tid 140350916118272] [client ::1:48246] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:37.464546 2017] [wsgi:error] [pid 8408:tid 140350916118272] [client ::1:48246] Traceback (most recent call last):
+[Tue Aug 22 00:47:37.464793 2017] [wsgi:error] [pid 8408:tid 140350916118272] [client ::1:48246]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:37.465110 2017] [wsgi:error] [pid 8408:tid 140350916118272] [client ::1:48246]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:37.465368 2017] [wsgi:error] [pid 8408:tid 140350916118272] [client ::1:48246] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:37.659880 2017] [wsgi:error] [pid 8408:tid 140350907725568] [client ::1:48248] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:37.659908 2017] [wsgi:error] [pid 8408:tid 140350907725568] [client ::1:48248] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:37.659931 2017] [wsgi:error] [pid 8408:tid 140350907725568] [client ::1:48248] Traceback (most recent call last):
+[Tue Aug 22 00:47:37.659957 2017] [wsgi:error] [pid 8408:tid 140350907725568] [client ::1:48248]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:37.659989 2017] [wsgi:error] [pid 8408:tid 140350907725568] [client ::1:48248]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:37.660004 2017] [wsgi:error] [pid 8408:tid 140350907725568] [client ::1:48248] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:37.827558 2017] [wsgi:error] [pid 8407:tid 140350882547456] [client ::1:48250] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:37.827607 2017] [wsgi:error] [pid 8407:tid 140350882547456] [client ::1:48250] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:37.827635 2017] [wsgi:error] [pid 8407:tid 140350882547456] [client ::1:48250] Traceback (most recent call last):
+[Tue Aug 22 00:47:37.827665 2017] [wsgi:error] [pid 8407:tid 140350882547456] [client ::1:48250]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:37.827728 2017] [wsgi:error] [pid 8407:tid 140350882547456] [client ::1:48250]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:37.827748 2017] [wsgi:error] [pid 8407:tid 140350882547456] [client ::1:48250] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:37.990426 2017] [wsgi:error] [pid 8407:tid 140350874154752] [client ::1:48252] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:37.990464 2017] [wsgi:error] [pid 8407:tid 140350874154752] [client ::1:48252] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:37.990498 2017] [wsgi:error] [pid 8407:tid 140350874154752] [client ::1:48252] Traceback (most recent call last):
+[Tue Aug 22 00:47:37.990521 2017] [wsgi:error] [pid 8407:tid 140350874154752] [client ::1:48252]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:37.990560 2017] [wsgi:error] [pid 8407:tid 140350874154752] [client ::1:48252]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:37.990576 2017] [wsgi:error] [pid 8407:tid 140350874154752] [client ::1:48252] ImportError: No module named django.core.wsgi
+[Tue Aug 22 00:47:38.145499 2017] [wsgi:error] [pid 8407:tid 140350865762048] [client ::1:48262] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 00:47:38.145572 2017] [wsgi:error] [pid 8407:tid 140350865762048] [client ::1:48262] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 00:47:38.145609 2017] [wsgi:error] [pid 8407:tid 140350865762048] [client ::1:48262] Traceback (most recent call last):
+[Tue Aug 22 00:47:38.145633 2017] [wsgi:error] [pid 8407:tid 140350865762048] [client ::1:48262]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 00:47:38.145676 2017] [wsgi:error] [pid 8407:tid 140350865762048] [client ::1:48262]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 00:47:38.145698 2017] [wsgi:error] [pid 8407:tid 140350865762048] [client ::1:48262] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:02:53.872027 2017] [wsgi:error] [pid 8408:tid 140350899332864] [client ::1:50778] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:02:53.872146 2017] [wsgi:error] [pid 8408:tid 140350899332864] [client ::1:50778] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:02:53.872239 2017] [wsgi:error] [pid 8408:tid 140350899332864] [client ::1:50778] Traceback (most recent call last):
+[Tue Aug 22 15:02:53.872305 2017] [wsgi:error] [pid 8408:tid 140350899332864] [client ::1:50778]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:02:53.872406 2017] [wsgi:error] [pid 8408:tid 140350899332864] [client ::1:50778]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:02:53.872472 2017] [wsgi:error] [pid 8408:tid 140350899332864] [client ::1:50778] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:02:54.583598 2017] [wsgi:error] [pid 8408:tid 140350890940160] [client ::1:50780] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:02:54.583685 2017] [wsgi:error] [pid 8408:tid 140350890940160] [client ::1:50780] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:02:54.583731 2017] [wsgi:error] [pid 8408:tid 140350890940160] [client ::1:50780] Traceback (most recent call last):
+[Tue Aug 22 15:02:54.583777 2017] [wsgi:error] [pid 8408:tid 140350890940160] [client ::1:50780]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:02:54.583849 2017] [wsgi:error] [pid 8408:tid 140350890940160] [client ::1:50780]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:02:54.583885 2017] [wsgi:error] [pid 8408:tid 140350890940160] [client ::1:50780] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:02:54.749758 2017] [wsgi:error] [pid 8408:tid 140350882547456] [client ::1:50782] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:02:54.749816 2017] [wsgi:error] [pid 8408:tid 140350882547456] [client ::1:50782] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:02:54.749866 2017] [wsgi:error] [pid 8408:tid 140350882547456] [client ::1:50782] Traceback (most recent call last):
+[Tue Aug 22 15:02:54.749908 2017] [wsgi:error] [pid 8408:tid 140350882547456] [client ::1:50782]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:02:54.749956 2017] [wsgi:error] [pid 8408:tid 140350882547456] [client ::1:50782]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:02:54.749985 2017] [wsgi:error] [pid 8408:tid 140350882547456] [client ::1:50782] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:02:54.924598 2017] [wsgi:error] [pid 8407:tid 140350857369344] [client ::1:50784] mod_wsgi (pid=8407): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:02:54.924687 2017] [wsgi:error] [pid 8407:tid 140350857369344] [client ::1:50784] mod_wsgi (pid=8407): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:02:54.924755 2017] [wsgi:error] [pid 8407:tid 140350857369344] [client ::1:50784] Traceback (most recent call last):
+[Tue Aug 22 15:02:54.924818 2017] [wsgi:error] [pid 8407:tid 140350857369344] [client ::1:50784]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:02:54.924912 2017] [wsgi:error] [pid 8407:tid 140350857369344] [client ::1:50784]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:02:54.924973 2017] [wsgi:error] [pid 8407:tid 140350857369344] [client ::1:50784] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:02:55.045241 2017] [wsgi:error] [pid 8408:tid 140350874154752] [client ::1:50786] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:02:55.045271 2017] [wsgi:error] [pid 8408:tid 140350874154752] [client ::1:50786] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:02:55.045287 2017] [wsgi:error] [pid 8408:tid 140350874154752] [client ::1:50786] Traceback (most recent call last):
+[Tue Aug 22 15:02:55.045304 2017] [wsgi:error] [pid 8408:tid 140350874154752] [client ::1:50786]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:02:55.045329 2017] [wsgi:error] [pid 8408:tid 140350874154752] [client ::1:50786]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:02:55.045345 2017] [wsgi:error] [pid 8408:tid 140350874154752] [client ::1:50786] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:02:55.342416 2017] [wsgi:error] [pid 8408:tid 140350865762048] [client ::1:50788] mod_wsgi (pid=8408): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:02:55.342495 2017] [wsgi:error] [pid 8408:tid 140350865762048] [client ::1:50788] mod_wsgi (pid=8408): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:02:55.342567 2017] [wsgi:error] [pid 8408:tid 140350865762048] [client ::1:50788] Traceback (most recent call last):
+[Tue Aug 22 15:02:55.342643 2017] [wsgi:error] [pid 8408:tid 140350865762048] [client ::1:50788]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:02:55.342734 2017] [wsgi:error] [pid 8408:tid 140350865762048] [client ::1:50788]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:02:55.342801 2017] [wsgi:error] [pid 8408:tid 140350865762048] [client ::1:50788] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:19.876370 2017] [wsgi:error] [pid 14542:tid 140364361139968] [client ::1:50994] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:19.876411 2017] [wsgi:error] [pid 14542:tid 140364361139968] [client ::1:50994] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:19.876424 2017] [wsgi:error] [pid 14542:tid 140364361139968] [client ::1:50994] Traceback (most recent call last):
+[Tue Aug 22 15:18:19.876437 2017] [wsgi:error] [pid 14542:tid 140364361139968] [client ::1:50994]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:19.876479 2017] [wsgi:error] [pid 14542:tid 140364361139968] [client ::1:50994]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:19.876498 2017] [wsgi:error] [pid 14542:tid 140364361139968] [client ::1:50994] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:20.592516 2017] [wsgi:error] [pid 14542:tid 140364352747264] [client ::1:50996] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:20.592596 2017] [wsgi:error] [pid 14542:tid 140364352747264] [client ::1:50996] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:20.592652 2017] [wsgi:error] [pid 14542:tid 140364352747264] [client ::1:50996] Traceback (most recent call last):
+[Tue Aug 22 15:18:20.592703 2017] [wsgi:error] [pid 14542:tid 140364352747264] [client ::1:50996]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:20.592776 2017] [wsgi:error] [pid 14542:tid 140364352747264] [client ::1:50996]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:20.592826 2017] [wsgi:error] [pid 14542:tid 140364352747264] [client ::1:50996] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:20.763018 2017] [wsgi:error] [pid 14542:tid 140364344354560] [client ::1:50998] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:20.763095 2017] [wsgi:error] [pid 14542:tid 140364344354560] [client ::1:50998] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:20.763163 2017] [wsgi:error] [pid 14542:tid 140364344354560] [client ::1:50998] Traceback (most recent call last):
+[Tue Aug 22 15:18:20.763229 2017] [wsgi:error] [pid 14542:tid 140364344354560] [client ::1:50998]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:20.763312 2017] [wsgi:error] [pid 14542:tid 140364344354560] [client ::1:50998]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:20.763367 2017] [wsgi:error] [pid 14542:tid 140364344354560] [client ::1:50998] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:20.917263 2017] [wsgi:error] [pid 14542:tid 140364335961856] [client ::1:51000] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:20.917292 2017] [wsgi:error] [pid 14542:tid 140364335961856] [client ::1:51000] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:20.917320 2017] [wsgi:error] [pid 14542:tid 140364335961856] [client ::1:51000] Traceback (most recent call last):
+[Tue Aug 22 15:18:20.917344 2017] [wsgi:error] [pid 14542:tid 140364335961856] [client ::1:51000]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:20.917373 2017] [wsgi:error] [pid 14542:tid 140364335961856] [client ::1:51000]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:20.917392 2017] [wsgi:error] [pid 14542:tid 140364335961856] [client ::1:51000] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:21.091311 2017] [wsgi:error] [pid 14542:tid 140364327569152] [client ::1:51002] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:21.091497 2017] [wsgi:error] [pid 14542:tid 140364327569152] [client ::1:51002] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:21.091584 2017] [wsgi:error] [pid 14542:tid 140364327569152] [client ::1:51002] Traceback (most recent call last):
+[Tue Aug 22 15:18:21.091652 2017] [wsgi:error] [pid 14542:tid 140364327569152] [client ::1:51002]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:21.091746 2017] [wsgi:error] [pid 14542:tid 140364327569152] [client ::1:51002]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:21.091809 2017] [wsgi:error] [pid 14542:tid 140364327569152] [client ::1:51002] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:21.245848 2017] [wsgi:error] [pid 14541:tid 140364361139968] [client ::1:51004] mod_wsgi (pid=14541): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:21.245881 2017] [wsgi:error] [pid 14541:tid 140364361139968] [client ::1:51004] mod_wsgi (pid=14541): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:21.245891 2017] [wsgi:error] [pid 14541:tid 140364361139968] [client ::1:51004] Traceback (most recent call last):
+[Tue Aug 22 15:18:21.245902 2017] [wsgi:error] [pid 14541:tid 140364361139968] [client ::1:51004]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:21.245933 2017] [wsgi:error] [pid 14541:tid 140364361139968] [client ::1:51004]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:21.245946 2017] [wsgi:error] [pid 14541:tid 140364361139968] [client ::1:51004] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:21.410437 2017] [wsgi:error] [pid 14541:tid 140364352747264] [client ::1:51006] mod_wsgi (pid=14541): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:21.410507 2017] [wsgi:error] [pid 14541:tid 140364352747264] [client ::1:51006] mod_wsgi (pid=14541): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:21.410567 2017] [wsgi:error] [pid 14541:tid 140364352747264] [client ::1:51006] Traceback (most recent call last):
+[Tue Aug 22 15:18:21.410626 2017] [wsgi:error] [pid 14541:tid 140364352747264] [client ::1:51006]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:21.410733 2017] [wsgi:error] [pid 14541:tid 140364352747264] [client ::1:51006]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:21.410884 2017] [wsgi:error] [pid 14541:tid 140364352747264] [client ::1:51006] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:21.577232 2017] [wsgi:error] [pid 14542:tid 140364319176448] [client ::1:51008] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:21.577301 2017] [wsgi:error] [pid 14542:tid 140364319176448] [client ::1:51008] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:21.577352 2017] [wsgi:error] [pid 14542:tid 140364319176448] [client ::1:51008] Traceback (most recent call last):
+[Tue Aug 22 15:18:21.577405 2017] [wsgi:error] [pid 14542:tid 140364319176448] [client ::1:51008]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:21.577469 2017] [wsgi:error] [pid 14542:tid 140364319176448] [client ::1:51008]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:21.577512 2017] [wsgi:error] [pid 14542:tid 140364319176448] [client ::1:51008] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:21.753176 2017] [wsgi:error] [pid 14541:tid 140364344354560] [client ::1:51010] mod_wsgi (pid=14541): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:21.753244 2017] [wsgi:error] [pid 14541:tid 140364344354560] [client ::1:51010] mod_wsgi (pid=14541): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:21.753320 2017] [wsgi:error] [pid 14541:tid 140364344354560] [client ::1:51010] Traceback (most recent call last):
+[Tue Aug 22 15:18:21.753374 2017] [wsgi:error] [pid 14541:tid 140364344354560] [client ::1:51010]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:21.753444 2017] [wsgi:error] [pid 14541:tid 140364344354560] [client ::1:51010]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:21.753492 2017] [wsgi:error] [pid 14541:tid 140364344354560] [client ::1:51010] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:21.907573 2017] [wsgi:error] [pid 14541:tid 140364335961856] [client ::1:51012] mod_wsgi (pid=14541): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:21.907635 2017] [wsgi:error] [pid 14541:tid 140364335961856] [client ::1:51012] mod_wsgi (pid=14541): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:21.907662 2017] [wsgi:error] [pid 14541:tid 140364335961856] [client ::1:51012] Traceback (most recent call last):
+[Tue Aug 22 15:18:21.907689 2017] [wsgi:error] [pid 14541:tid 140364335961856] [client ::1:51012]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:21.907726 2017] [wsgi:error] [pid 14541:tid 140364335961856] [client ::1:51012]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:21.907750 2017] [wsgi:error] [pid 14541:tid 140364335961856] [client ::1:51012] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:22.085566 2017] [wsgi:error] [pid 14542:tid 140364310783744] [client ::1:51014] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:22.085663 2017] [wsgi:error] [pid 14542:tid 140364310783744] [client ::1:51014] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:22.085742 2017] [wsgi:error] [pid 14542:tid 140364310783744] [client ::1:51014] Traceback (most recent call last):
+[Tue Aug 22 15:18:22.085796 2017] [wsgi:error] [pid 14542:tid 140364310783744] [client ::1:51014]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:22.085895 2017] [wsgi:error] [pid 14542:tid 140364310783744] [client ::1:51014]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:22.085948 2017] [wsgi:error] [pid 14542:tid 140364310783744] [client ::1:51014] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:22.259940 2017] [wsgi:error] [pid 14541:tid 140364327569152] [client ::1:51016] mod_wsgi (pid=14541): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:22.259994 2017] [wsgi:error] [pid 14541:tid 140364327569152] [client ::1:51016] mod_wsgi (pid=14541): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:22.260036 2017] [wsgi:error] [pid 14541:tid 140364327569152] [client ::1:51016] Traceback (most recent call last):
+[Tue Aug 22 15:18:22.260066 2017] [wsgi:error] [pid 14541:tid 140364327569152] [client ::1:51016]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:22.260128 2017] [wsgi:error] [pid 14541:tid 140364327569152] [client ::1:51016]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:22.260156 2017] [wsgi:error] [pid 14541:tid 140364327569152] [client ::1:51016] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:22.453305 2017] [wsgi:error] [pid 14542:tid 140364228851456] [client ::1:51018] mod_wsgi (pid=14542): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:22.453357 2017] [wsgi:error] [pid 14542:tid 140364228851456] [client ::1:51018] mod_wsgi (pid=14542): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:22.453408 2017] [wsgi:error] [pid 14542:tid 140364228851456] [client ::1:51018] Traceback (most recent call last):
+[Tue Aug 22 15:18:22.453455 2017] [wsgi:error] [pid 14542:tid 140364228851456] [client ::1:51018]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:22.453516 2017] [wsgi:error] [pid 14542:tid 140364228851456] [client ::1:51018]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:22.453549 2017] [wsgi:error] [pid 14542:tid 140364228851456] [client ::1:51018] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:18:22.733174 2017] [wsgi:error] [pid 14541:tid 140364319176448] [client ::1:51020] mod_wsgi (pid=14541): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:18:22.733236 2017] [wsgi:error] [pid 14541:tid 140364319176448] [client ::1:51020] mod_wsgi (pid=14541): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:18:22.733298 2017] [wsgi:error] [pid 14541:tid 140364319176448] [client ::1:51020] Traceback (most recent call last):
+[Tue Aug 22 15:18:22.733350 2017] [wsgi:error] [pid 14541:tid 140364319176448] [client ::1:51020]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:18:22.733415 2017] [wsgi:error] [pid 14541:tid 140364319176448] [client ::1:51020]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:18:22.733456 2017] [wsgi:error] [pid 14541:tid 140364319176448] [client ::1:51020] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:19.851477 2017] [wsgi:error] [pid 14711:tid 139669593966336] [client ::1:51026] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:19.851517 2017] [wsgi:error] [pid 14711:tid 139669593966336] [client ::1:51026] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:19.851537 2017] [wsgi:error] [pid 14711:tid 139669593966336] [client ::1:51026] Traceback (most recent call last):
+[Tue Aug 22 15:20:19.851555 2017] [wsgi:error] [pid 14711:tid 139669593966336] [client ::1:51026]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:19.851611 2017] [wsgi:error] [pid 14711:tid 139669593966336] [client ::1:51026]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:19.851628 2017] [wsgi:error] [pid 14711:tid 139669593966336] [client ::1:51026] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:20.596218 2017] [wsgi:error] [pid 14711:tid 139669509498624] [client ::1:51028] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:20.596291 2017] [wsgi:error] [pid 14711:tid 139669509498624] [client ::1:51028] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:20.596342 2017] [wsgi:error] [pid 14711:tid 139669509498624] [client ::1:51028] Traceback (most recent call last):
+[Tue Aug 22 15:20:20.596387 2017] [wsgi:error] [pid 14711:tid 139669509498624] [client ::1:51028]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:20.596466 2017] [wsgi:error] [pid 14711:tid 139669509498624] [client ::1:51028]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:20.596517 2017] [wsgi:error] [pid 14711:tid 139669509498624] [client ::1:51028] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:20.767528 2017] [wsgi:error] [pid 14711:tid 139669517891328] [client ::1:51030] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:20.767587 2017] [wsgi:error] [pid 14711:tid 139669517891328] [client ::1:51030] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:20.767644 2017] [wsgi:error] [pid 14711:tid 139669517891328] [client ::1:51030] Traceback (most recent call last):
+[Tue Aug 22 15:20:20.767695 2017] [wsgi:error] [pid 14711:tid 139669517891328] [client ::1:51030]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:20.767756 2017] [wsgi:error] [pid 14711:tid 139669517891328] [client ::1:51030]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:20.767792 2017] [wsgi:error] [pid 14711:tid 139669517891328] [client ::1:51030] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:20.953286 2017] [wsgi:error] [pid 14710:tid 139669593966336] [client ::1:51032] mod_wsgi (pid=14710): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:20.953352 2017] [wsgi:error] [pid 14710:tid 139669593966336] [client ::1:51032] mod_wsgi (pid=14710): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:20.953391 2017] [wsgi:error] [pid 14710:tid 139669593966336] [client ::1:51032] Traceback (most recent call last):
+[Tue Aug 22 15:20:20.953420 2017] [wsgi:error] [pid 14710:tid 139669593966336] [client ::1:51032]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:20.953501 2017] [wsgi:error] [pid 14710:tid 139669593966336] [client ::1:51032]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:20.953532 2017] [wsgi:error] [pid 14710:tid 139669593966336] [client ::1:51032] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:21.101320 2017] [wsgi:error] [pid 14711:tid 139669501105920] [client ::1:51034] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:21.101379 2017] [wsgi:error] [pid 14711:tid 139669501105920] [client ::1:51034] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:21.101426 2017] [wsgi:error] [pid 14711:tid 139669501105920] [client ::1:51034] Traceback (most recent call last):
+[Tue Aug 22 15:20:21.101485 2017] [wsgi:error] [pid 14711:tid 139669501105920] [client ::1:51034]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:21.101563 2017] [wsgi:error] [pid 14711:tid 139669501105920] [client ::1:51034]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:21.101593 2017] [wsgi:error] [pid 14711:tid 139669501105920] [client ::1:51034] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:21.290724 2017] [wsgi:error] [pid 14711:tid 139669484320512] [client ::1:51036] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:21.290787 2017] [wsgi:error] [pid 14711:tid 139669484320512] [client ::1:51036] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:21.290837 2017] [wsgi:error] [pid 14711:tid 139669484320512] [client ::1:51036] Traceback (most recent call last):
+[Tue Aug 22 15:20:21.290888 2017] [wsgi:error] [pid 14711:tid 139669484320512] [client ::1:51036]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:21.290951 2017] [wsgi:error] [pid 14711:tid 139669484320512] [client ::1:51036]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:21.291010 2017] [wsgi:error] [pid 14711:tid 139669484320512] [client ::1:51036] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:21.573865 2017] [wsgi:error] [pid 14711:tid 139669475927808] [client ::1:51038] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:21.573931 2017] [wsgi:error] [pid 14711:tid 139669475927808] [client ::1:51038] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:21.573989 2017] [wsgi:error] [pid 14711:tid 139669475927808] [client ::1:51038] Traceback (most recent call last):
+[Tue Aug 22 15:20:21.574050 2017] [wsgi:error] [pid 14711:tid 139669475927808] [client ::1:51038]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:21.574124 2017] [wsgi:error] [pid 14711:tid 139669475927808] [client ::1:51038]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:21.574174 2017] [wsgi:error] [pid 14711:tid 139669475927808] [client ::1:51038] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:20:22.127985 2017] [wsgi:error] [pid 14711:tid 139669492713216] [client ::1:51040] mod_wsgi (pid=14711): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:20:22.128067 2017] [wsgi:error] [pid 14711:tid 139669492713216] [client ::1:51040] mod_wsgi (pid=14711): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:20:22.128132 2017] [wsgi:error] [pid 14711:tid 139669492713216] [client ::1:51040] Traceback (most recent call last):
+[Tue Aug 22 15:20:22.128194 2017] [wsgi:error] [pid 14711:tid 139669492713216] [client ::1:51040]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:20:22.128274 2017] [wsgi:error] [pid 14711:tid 139669492713216] [client ::1:51040]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:20:22.128333 2017] [wsgi:error] [pid 14711:tid 139669492713216] [client ::1:51040] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:24.511183 2017] [wsgi:error] [pid 14862:tid 140092828788480] [client ::1:51046] mod_wsgi (pid=14862): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:24.511221 2017] [wsgi:error] [pid 14862:tid 140092828788480] [client ::1:51046] mod_wsgi (pid=14862): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:24.511242 2017] [wsgi:error] [pid 14862:tid 140092828788480] [client ::1:51046] Traceback (most recent call last):
+[Tue Aug 22 15:22:24.511257 2017] [wsgi:error] [pid 14862:tid 140092828788480] [client ::1:51046]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:24.511301 2017] [wsgi:error] [pid 14862:tid 140092828788480] [client ::1:51046]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:24.511314 2017] [wsgi:error] [pid 14862:tid 140092828788480] [client ::1:51046] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:25.229563 2017] [wsgi:error] [pid 14861:tid 140092828788480] [client ::1:51048] mod_wsgi (pid=14861): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:25.229608 2017] [wsgi:error] [pid 14861:tid 140092828788480] [client ::1:51048] mod_wsgi (pid=14861): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:25.229626 2017] [wsgi:error] [pid 14861:tid 140092828788480] [client ::1:51048] Traceback (most recent call last):
+[Tue Aug 22 15:22:25.229643 2017] [wsgi:error] [pid 14861:tid 140092828788480] [client ::1:51048]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:25.229695 2017] [wsgi:error] [pid 14861:tid 140092828788480] [client ::1:51048]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:25.229714 2017] [wsgi:error] [pid 14861:tid 140092828788480] [client ::1:51048] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:25.356511 2017] [wsgi:error] [pid 14861:tid 140092820395776] [client ::1:51050] mod_wsgi (pid=14861): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:25.356555 2017] [wsgi:error] [pid 14861:tid 140092820395776] [client ::1:51050] mod_wsgi (pid=14861): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:25.356592 2017] [wsgi:error] [pid 14861:tid 140092820395776] [client ::1:51050] Traceback (most recent call last):
+[Tue Aug 22 15:22:25.356629 2017] [wsgi:error] [pid 14861:tid 140092820395776] [client ::1:51050]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:25.356674 2017] [wsgi:error] [pid 14861:tid 140092820395776] [client ::1:51050]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:25.356703 2017] [wsgi:error] [pid 14861:tid 140092820395776] [client ::1:51050] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:25.502665 2017] [wsgi:error] [pid 14862:tid 140092820395776] [client ::1:51052] mod_wsgi (pid=14862): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:25.502689 2017] [wsgi:error] [pid 14862:tid 140092820395776] [client ::1:51052] mod_wsgi (pid=14862): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:25.502706 2017] [wsgi:error] [pid 14862:tid 140092820395776] [client ::1:51052] Traceback (most recent call last):
+[Tue Aug 22 15:22:25.502723 2017] [wsgi:error] [pid 14862:tid 140092820395776] [client ::1:51052]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:25.502748 2017] [wsgi:error] [pid 14862:tid 140092820395776] [client ::1:51052]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:25.502762 2017] [wsgi:error] [pid 14862:tid 140092820395776] [client ::1:51052] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:25.665313 2017] [wsgi:error] [pid 14861:tid 140092812003072] [client ::1:51054] mod_wsgi (pid=14861): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:25.665382 2017] [wsgi:error] [pid 14861:tid 140092812003072] [client ::1:51054] mod_wsgi (pid=14861): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:25.665467 2017] [wsgi:error] [pid 14861:tid 140092812003072] [client ::1:51054] Traceback (most recent call last):
+[Tue Aug 22 15:22:25.665513 2017] [wsgi:error] [pid 14861:tid 140092812003072] [client ::1:51054]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:25.665572 2017] [wsgi:error] [pid 14861:tid 140092812003072] [client ::1:51054]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:25.665626 2017] [wsgi:error] [pid 14861:tid 140092812003072] [client ::1:51054] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:25.828134 2017] [wsgi:error] [pid 14862:tid 140092812003072] [client ::1:51056] mod_wsgi (pid=14862): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:25.828188 2017] [wsgi:error] [pid 14862:tid 140092812003072] [client ::1:51056] mod_wsgi (pid=14862): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:25.828241 2017] [wsgi:error] [pid 14862:tid 140092812003072] [client ::1:51056] Traceback (most recent call last):
+[Tue Aug 22 15:22:25.828301 2017] [wsgi:error] [pid 14862:tid 140092812003072] [client ::1:51056]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:25.828359 2017] [wsgi:error] [pid 14862:tid 140092812003072] [client ::1:51056]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:25.828393 2017] [wsgi:error] [pid 14862:tid 140092812003072] [client ::1:51056] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:25.981523 2017] [wsgi:error] [pid 14862:tid 140092803610368] [client ::1:51058] mod_wsgi (pid=14862): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:25.981581 2017] [wsgi:error] [pid 14862:tid 140092803610368] [client ::1:51058] mod_wsgi (pid=14862): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:25.981639 2017] [wsgi:error] [pid 14862:tid 140092803610368] [client ::1:51058] Traceback (most recent call last):
+[Tue Aug 22 15:22:25.981699 2017] [wsgi:error] [pid 14862:tid 140092803610368] [client ::1:51058]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:25.981763 2017] [wsgi:error] [pid 14862:tid 140092803610368] [client ::1:51058]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:25.981801 2017] [wsgi:error] [pid 14862:tid 140092803610368] [client ::1:51058] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:26.113116 2017] [wsgi:error] [pid 14861:tid 140092803610368] [client ::1:51060] mod_wsgi (pid=14861): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:26.113229 2017] [wsgi:error] [pid 14861:tid 140092803610368] [client ::1:51060] mod_wsgi (pid=14861): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:26.113421 2017] [wsgi:error] [pid 14861:tid 140092803610368] [client ::1:51060] Traceback (most recent call last):
+[Tue Aug 22 15:22:26.113499 2017] [wsgi:error] [pid 14861:tid 140092803610368] [client ::1:51060]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:26.113604 2017] [wsgi:error] [pid 14861:tid 140092803610368] [client ::1:51060]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:26.113658 2017] [wsgi:error] [pid 14861:tid 140092803610368] [client ::1:51060] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:22:26.412536 2017] [wsgi:error] [pid 14862:tid 140092795217664] [client ::1:51062] mod_wsgi (pid=14862): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:22:26.412663 2017] [wsgi:error] [pid 14862:tid 140092795217664] [client ::1:51062] mod_wsgi (pid=14862): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:22:26.412743 2017] [wsgi:error] [pid 14862:tid 140092795217664] [client ::1:51062] Traceback (most recent call last):
+[Tue Aug 22 15:22:26.412812 2017] [wsgi:error] [pid 14862:tid 140092795217664] [client ::1:51062]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:22:26.412904 2017] [wsgi:error] [pid 14862:tid 140092795217664] [client ::1:51062]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:22:26.412982 2017] [wsgi:error] [pid 14862:tid 140092795217664] [client ::1:51062] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:03.707611 2017] [wsgi:error] [pid 15014:tid 140543409518336] [client ::1:51070] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:03.707704 2017] [wsgi:error] [pid 15014:tid 140543409518336] [client ::1:51070] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:03.707746 2017] [wsgi:error] [pid 15014:tid 140543409518336] [client ::1:51070] Traceback (most recent call last):
+[Tue Aug 22 15:24:03.707786 2017] [wsgi:error] [pid 15014:tid 140543409518336] [client ::1:51070]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:03.707911 2017] [wsgi:error] [pid 15014:tid 140543409518336] [client ::1:51070]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:03.707957 2017] [wsgi:error] [pid 15014:tid 140543409518336] [client ::1:51070] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:04.962821 2017] [wsgi:error] [pid 15014:tid 140543401125632] [client ::1:51072] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:04.962913 2017] [wsgi:error] [pid 15014:tid 140543401125632] [client ::1:51072] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:04.962977 2017] [wsgi:error] [pid 15014:tid 140543401125632] [client ::1:51072] Traceback (most recent call last):
+[Tue Aug 22 15:24:04.963032 2017] [wsgi:error] [pid 15014:tid 140543401125632] [client ::1:51072]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:04.963108 2017] [wsgi:error] [pid 15014:tid 140543401125632] [client ::1:51072]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:04.963162 2017] [wsgi:error] [pid 15014:tid 140543401125632] [client ::1:51072] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:05.170620 2017] [wsgi:error] [pid 15014:tid 140543392732928] [client ::1:51074] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:05.170679 2017] [wsgi:error] [pid 15014:tid 140543392732928] [client ::1:51074] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:05.170719 2017] [wsgi:error] [pid 15014:tid 140543392732928] [client ::1:51074] Traceback (most recent call last):
+[Tue Aug 22 15:24:05.170754 2017] [wsgi:error] [pid 15014:tid 140543392732928] [client ::1:51074]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:05.170803 2017] [wsgi:error] [pid 15014:tid 140543392732928] [client ::1:51074]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:05.170835 2017] [wsgi:error] [pid 15014:tid 140543392732928] [client ::1:51074] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:05.394275 2017] [wsgi:error] [pid 15014:tid 140543384340224] [client ::1:51076] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:05.394342 2017] [wsgi:error] [pid 15014:tid 140543384340224] [client ::1:51076] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:05.394392 2017] [wsgi:error] [pid 15014:tid 140543384340224] [client ::1:51076] Traceback (most recent call last):
+[Tue Aug 22 15:24:05.394438 2017] [wsgi:error] [pid 15014:tid 140543384340224] [client ::1:51076]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:05.394488 2017] [wsgi:error] [pid 15014:tid 140543384340224] [client ::1:51076]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:05.394519 2017] [wsgi:error] [pid 15014:tid 140543384340224] [client ::1:51076] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:05.626739 2017] [wsgi:error] [pid 15015:tid 140543409518336] [client ::1:51078] mod_wsgi (pid=15015): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:05.626810 2017] [wsgi:error] [pid 15015:tid 140543409518336] [client ::1:51078] mod_wsgi (pid=15015): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:05.626840 2017] [wsgi:error] [pid 15015:tid 140543409518336] [client ::1:51078] Traceback (most recent call last):
+[Tue Aug 22 15:24:05.626869 2017] [wsgi:error] [pid 15015:tid 140543409518336] [client ::1:51078]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:05.626953 2017] [wsgi:error] [pid 15015:tid 140543409518336] [client ::1:51078]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:05.626985 2017] [wsgi:error] [pid 15015:tid 140543409518336] [client ::1:51078] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:05.885202 2017] [wsgi:error] [pid 15014:tid 140543375947520] [client ::1:51080] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:05.885264 2017] [wsgi:error] [pid 15014:tid 140543375947520] [client ::1:51080] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:05.885318 2017] [wsgi:error] [pid 15014:tid 140543375947520] [client ::1:51080] Traceback (most recent call last):
+[Tue Aug 22 15:24:05.885374 2017] [wsgi:error] [pid 15014:tid 140543375947520] [client ::1:51080]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:05.885430 2017] [wsgi:error] [pid 15014:tid 140543375947520] [client ::1:51080]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:05.885467 2017] [wsgi:error] [pid 15014:tid 140543375947520] [client ::1:51080] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:06.257093 2017] [wsgi:error] [pid 15015:tid 140543392732928] [client ::1:51082] mod_wsgi (pid=15015): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:06.257198 2017] [wsgi:error] [pid 15015:tid 140543392732928] [client ::1:51082] mod_wsgi (pid=15015): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:06.257267 2017] [wsgi:error] [pid 15015:tid 140543392732928] [client ::1:51082] Traceback (most recent call last):
+[Tue Aug 22 15:24:06.257327 2017] [wsgi:error] [pid 15015:tid 140543392732928] [client ::1:51082]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:06.257410 2017] [wsgi:error] [pid 15015:tid 140543392732928] [client ::1:51082]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:06.257468 2017] [wsgi:error] [pid 15015:tid 140543392732928] [client ::1:51082] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:06.496768 2017] [wsgi:error] [pid 15014:tid 140543367554816] [client ::1:51084] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:06.496934 2017] [wsgi:error] [pid 15014:tid 140543367554816] [client ::1:51084] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:06.497050 2017] [wsgi:error] [pid 15014:tid 140543367554816] [client ::1:51084] Traceback (most recent call last):
+[Tue Aug 22 15:24:06.497167 2017] [wsgi:error] [pid 15014:tid 140543367554816] [client ::1:51084]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:06.497438 2017] [wsgi:error] [pid 15014:tid 140543367554816] [client ::1:51084]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:06.497603 2017] [wsgi:error] [pid 15014:tid 140543367554816] [client ::1:51084] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:06.699680 2017] [wsgi:error] [pid 15014:tid 140543359162112] [client ::1:51086] mod_wsgi (pid=15014): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:06.699744 2017] [wsgi:error] [pid 15014:tid 140543359162112] [client ::1:51086] mod_wsgi (pid=15014): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:06.699793 2017] [wsgi:error] [pid 15014:tid 140543359162112] [client ::1:51086] Traceback (most recent call last):
+[Tue Aug 22 15:24:06.699850 2017] [wsgi:error] [pid 15014:tid 140543359162112] [client ::1:51086]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:06.699915 2017] [wsgi:error] [pid 15014:tid 140543359162112] [client ::1:51086]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:06.699962 2017] [wsgi:error] [pid 15014:tid 140543359162112] [client ::1:51086] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:40.039758 2017] [wsgi:error] [pid 15138:tid 140087539005184] [client ::1:51090] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:40.039870 2017] [wsgi:error] [pid 15138:tid 140087539005184] [client ::1:51090] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:40.039931 2017] [wsgi:error] [pid 15138:tid 140087539005184] [client ::1:51090] Traceback (most recent call last):
+[Tue Aug 22 15:24:40.040008 2017] [wsgi:error] [pid 15138:tid 140087539005184] [client ::1:51090]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:40.040167 2017] [wsgi:error] [pid 15138:tid 140087539005184] [client ::1:51090]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:40.040208 2017] [wsgi:error] [pid 15138:tid 140087539005184] [client ::1:51090] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:40.813389 2017] [wsgi:error] [pid 15138:tid 140087530612480] [client ::1:51092] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:40.813446 2017] [wsgi:error] [pid 15138:tid 140087530612480] [client ::1:51092] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:40.813500 2017] [wsgi:error] [pid 15138:tid 140087530612480] [client ::1:51092] Traceback (most recent call last):
+[Tue Aug 22 15:24:40.813554 2017] [wsgi:error] [pid 15138:tid 140087530612480] [client ::1:51092]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:40.813617 2017] [wsgi:error] [pid 15138:tid 140087530612480] [client ::1:51092]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:40.813675 2017] [wsgi:error] [pid 15138:tid 140087530612480] [client ::1:51092] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:40.971373 2017] [wsgi:error] [pid 15138:tid 140087513827072] [client ::1:51094] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:40.971817 2017] [wsgi:error] [pid 15138:tid 140087513827072] [client ::1:51094] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:40.972017 2017] [wsgi:error] [pid 15138:tid 140087513827072] [client ::1:51094] Traceback (most recent call last):
+[Tue Aug 22 15:24:40.972232 2017] [wsgi:error] [pid 15138:tid 140087513827072] [client ::1:51094]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:40.972352 2017] [wsgi:error] [pid 15138:tid 140087513827072] [client ::1:51094]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:40.972425 2017] [wsgi:error] [pid 15138:tid 140087513827072] [client ::1:51094] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:41.137841 2017] [wsgi:error] [pid 15138:tid 140087620404992] [client ::1:51096] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:41.137874 2017] [wsgi:error] [pid 15138:tid 140087620404992] [client ::1:51096] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:41.137895 2017] [wsgi:error] [pid 15138:tid 140087620404992] [client ::1:51096] Traceback (most recent call last):
+[Tue Aug 22 15:24:41.137912 2017] [wsgi:error] [pid 15138:tid 140087620404992] [client ::1:51096]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:41.137934 2017] [wsgi:error] [pid 15138:tid 140087620404992] [client ::1:51096]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:41.137947 2017] [wsgi:error] [pid 15138:tid 140087620404992] [client ::1:51096] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:41.309731 2017] [wsgi:error] [pid 15138:tid 140087522219776] [client ::1:51098] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:41.309801 2017] [wsgi:error] [pid 15138:tid 140087522219776] [client ::1:51098] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:41.309862 2017] [wsgi:error] [pid 15138:tid 140087522219776] [client ::1:51098] Traceback (most recent call last):
+[Tue Aug 22 15:24:41.309929 2017] [wsgi:error] [pid 15138:tid 140087522219776] [client ::1:51098]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:41.310009 2017] [wsgi:error] [pid 15138:tid 140087522219776] [client ::1:51098]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:41.310082 2017] [wsgi:error] [pid 15138:tid 140087522219776] [client ::1:51098] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:41.460643 2017] [wsgi:error] [pid 15138:tid 140087505434368] [client ::1:51100] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:41.460667 2017] [wsgi:error] [pid 15138:tid 140087505434368] [client ::1:51100] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:41.460687 2017] [wsgi:error] [pid 15138:tid 140087505434368] [client ::1:51100] Traceback (most recent call last):
+[Tue Aug 22 15:24:41.460707 2017] [wsgi:error] [pid 15138:tid 140087505434368] [client ::1:51100]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:41.460744 2017] [wsgi:error] [pid 15138:tid 140087505434368] [client ::1:51100]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:41.460768 2017] [wsgi:error] [pid 15138:tid 140087505434368] [client ::1:51100] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:41.627190 2017] [wsgi:error] [pid 15138:tid 140087488648960] [client ::1:51102] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:41.627244 2017] [wsgi:error] [pid 15138:tid 140087488648960] [client ::1:51102] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:41.627293 2017] [wsgi:error] [pid 15138:tid 140087488648960] [client ::1:51102] Traceback (most recent call last):
+[Tue Aug 22 15:24:41.627333 2017] [wsgi:error] [pid 15138:tid 140087488648960] [client ::1:51102]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:41.627385 2017] [wsgi:error] [pid 15138:tid 140087488648960] [client ::1:51102]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:41.627445 2017] [wsgi:error] [pid 15138:tid 140087488648960] [client ::1:51102] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:41.781553 2017] [wsgi:error] [pid 15138:tid 140087497041664] [client ::1:51104] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:41.781613 2017] [wsgi:error] [pid 15138:tid 140087497041664] [client ::1:51104] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:41.781669 2017] [wsgi:error] [pid 15138:tid 140087497041664] [client ::1:51104] Traceback (most recent call last):
+[Tue Aug 22 15:24:41.781723 2017] [wsgi:error] [pid 15138:tid 140087497041664] [client ::1:51104]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:41.781789 2017] [wsgi:error] [pid 15138:tid 140087497041664] [client ::1:51104]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:41.781853 2017] [wsgi:error] [pid 15138:tid 140087497041664] [client ::1:51104] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:41.945469 2017] [wsgi:error] [pid 15139:tid 140087620404992] [client ::1:51106] mod_wsgi (pid=15139): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:41.945517 2017] [wsgi:error] [pid 15139:tid 140087620404992] [client ::1:51106] mod_wsgi (pid=15139): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:41.945533 2017] [wsgi:error] [pid 15139:tid 140087620404992] [client ::1:51106] Traceback (most recent call last):
+[Tue Aug 22 15:24:41.945549 2017] [wsgi:error] [pid 15139:tid 140087620404992] [client ::1:51106]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:41.945593 2017] [wsgi:error] [pid 15139:tid 140087620404992] [client ::1:51106]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:41.945610 2017] [wsgi:error] [pid 15139:tid 140087620404992] [client ::1:51106] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:42.100318 2017] [wsgi:error] [pid 15139:tid 140087539005184] [client ::1:51108] mod_wsgi (pid=15139): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:42.100370 2017] [wsgi:error] [pid 15139:tid 140087539005184] [client ::1:51108] mod_wsgi (pid=15139): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:42.100410 2017] [wsgi:error] [pid 15139:tid 140087539005184] [client ::1:51108] Traceback (most recent call last):
+[Tue Aug 22 15:24:42.100452 2017] [wsgi:error] [pid 15139:tid 140087539005184] [client ::1:51108]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:42.100525 2017] [wsgi:error] [pid 15139:tid 140087539005184] [client ::1:51108]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:42.100557 2017] [wsgi:error] [pid 15139:tid 140087539005184] [client ::1:51108] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:42.275321 2017] [wsgi:error] [pid 15139:tid 140087530612480] [client ::1:51110] mod_wsgi (pid=15139): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:42.275382 2017] [wsgi:error] [pid 15139:tid 140087530612480] [client ::1:51110] mod_wsgi (pid=15139): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:42.275494 2017] [wsgi:error] [pid 15139:tid 140087530612480] [client ::1:51110] Traceback (most recent call last):
+[Tue Aug 22 15:24:42.275581 2017] [wsgi:error] [pid 15139:tid 140087530612480] [client ::1:51110]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:42.275658 2017] [wsgi:error] [pid 15139:tid 140087530612480] [client ::1:51110]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:42.275706 2017] [wsgi:error] [pid 15139:tid 140087530612480] [client ::1:51110] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:42.430919 2017] [wsgi:error] [pid 15138:tid 140087480256256] [client ::1:51112] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:42.431012 2017] [wsgi:error] [pid 15138:tid 140087480256256] [client ::1:51112] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:42.431070 2017] [wsgi:error] [pid 15138:tid 140087480256256] [client ::1:51112] Traceback (most recent call last):
+[Tue Aug 22 15:24:42.431122 2017] [wsgi:error] [pid 15138:tid 140087480256256] [client ::1:51112]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:42.431194 2017] [wsgi:error] [pid 15138:tid 140087480256256] [client ::1:51112]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:42.431245 2017] [wsgi:error] [pid 15138:tid 140087480256256] [client ::1:51112] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:42.562549 2017] [wsgi:error] [pid 15138:tid 140087463470848] [client ::1:51114] mod_wsgi (pid=15138): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:42.562574 2017] [wsgi:error] [pid 15138:tid 140087463470848] [client ::1:51114] mod_wsgi (pid=15138): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:42.562595 2017] [wsgi:error] [pid 15138:tid 140087463470848] [client ::1:51114] Traceback (most recent call last):
+[Tue Aug 22 15:24:42.562615 2017] [wsgi:error] [pid 15138:tid 140087463470848] [client ::1:51114]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:42.562641 2017] [wsgi:error] [pid 15138:tid 140087463470848] [client ::1:51114]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:42.562659 2017] [wsgi:error] [pid 15138:tid 140087463470848] [client ::1:51114] ImportError: No module named django.core.wsgi
+[Tue Aug 22 15:24:42.817402 2017] [wsgi:error] [pid 15139:tid 140087522219776] [client ::1:51116] mod_wsgi (pid=15139): Target WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py' cannot be loaded as Python module.
+[Tue Aug 22 15:24:42.817452 2017] [wsgi:error] [pid 15139:tid 140087522219776] [client ::1:51116] mod_wsgi (pid=15139): Exception occurred processing WSGI script '/home/m2k/sem_3_project/django/final/final/wsgi.py'.
+[Tue Aug 22 15:24:42.817501 2017] [wsgi:error] [pid 15139:tid 140087522219776] [client ::1:51116] Traceback (most recent call last):
+[Tue Aug 22 15:24:42.817559 2017] [wsgi:error] [pid 15139:tid 140087522219776] [client ::1:51116]   File "/home/m2k/sem_3_project/django/final/final/wsgi.py", line 12, in <module>
+[Tue Aug 22 15:24:42.817611 2017] [wsgi:error] [pid 15139:tid 140087522219776] [client ::1:51116]     from django.core.wsgi import get_wsgi_application
+[Tue Aug 22 15:24:42.817643 2017] [wsgi:error] [pid 15139:tid 140087522219776] [client ::1:51116] ImportError: No module named django.core.wsgi

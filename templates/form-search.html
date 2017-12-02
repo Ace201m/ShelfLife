@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% block body %}
+    <script>
+        function play(id) {
+                  var link = document.getElementById(id);
+                  if(link.paused){
+                      link.play()
+                        }else
+                            link.pause()
+        }
+    </script>
+    <div class="main-content" style="margin-bottom: 3%;margin-top: 3%">
+
+        <!-- You only need this form and the form-search.css -->
+
+        <form class="form-search" method="post" action="{% url 'basic:query' %}">
+            {% csrf_token %}
+            <input type="search" name="query" value="{{ value }}" placeholder="I am looking for..">
+            <button type="submit">Search</button>
+            <i class="fa fa-search"></i>
+        </form>
+    </div>
+    {% for i in get %}
+    <div class="jumbotron" style="margin-bottom: 30px">
+        {% if i.content == "music" %}
+            <center><h1><strong>{{ i }}</strong></h1><br>
+                <audio id="{{ i.pk }}" src="{{ i.songs_file.url }}">
+                </audio>
+                <a class="btn btn-success btn-md" onclick="play({{ i.pk }})">PLAY</a>
+            </center>
+        {% endif %}
+        {% if i.content == "messaages" %}
+            <div class="container">
+                <h3> Message by {{ i.sender }}</h3><br>
+                <div class="jumbotron" style="background-color: #6CAEE0">
+                    <p style="font-family: cursive">{{ i.message_text }}</p>
+                </div>
+            </div>
+        {% endif %}
+        {% if i.content == "movie" %}
+            <div class="container">
+                <h3>{{ i.movie_name }}</h3><br>
+                <iframe src="{{ i.movie_file.url }}" allowfullscreen></iframe>
+            </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+{% endblock %}
+{% block title %}
+    Search
+{% endblock %}

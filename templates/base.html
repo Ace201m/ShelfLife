@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ShelfLife</title>
+    {% load staticfiles %}
+    <link rel="icon" type="image/plain" href="{% static 'icon.png' %}">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<title>{% block title %}{% endblock %}</title>
+{% block style %}
+        {% endblock %}
+	<link rel="stylesheet" href="{% static 'assets/form-login.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/form-register.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/form-search.css' %}">
+    <link rel="stylesheet" href="{% static 'dist/css/bootstrap.css' %}">
+
+    <style>
+        .swal-overlay {
+            background-color: rgba(43, 165, 137, 0.45);
+        }
+        li.dropdown{
+            display:inline-block;
+        }
+        li.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 20px">
+        <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="{% url 'basic:index'%}">ShelfLife</a>
+        </div>
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="{% url 'basic:addmusic' %}" title="Click to post a song">Music</a>
+                </li>
+                <li>
+                    <a href="{% url 'basic:addmovie' %}" title="Click to post a movie">Movie</a>
+                </li>
+                <li>
+                    <a href="{% url 'basic:addbook' %}" title="Click to post a movie">Book</a>
+                </li>
+                <li>
+                    <a href="{% url 'basic:message' %}" title="Click to post a message">Message</a>
+                </li>
+                <li>
+                    <a href="{% url 'basic:inbox' %}" title="Click for inbox">Inbox</a>
+                </li>
+                <li>
+                    <a href="{% url 'basic:query' %}" title="Click for search">Search</a>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                {% if struser %}
+                <li class="dropdown">
+                  <a href="{% url 'basic:logout' %}" class="dropbtn" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span>&nbsp;{{struser}}</a>
+                  <!--<ul class="dropdown-menu">
+                        <li><a href="{% url 'basic:profile' struser %}">Profile</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="{%url 'basic:logout'%}">Logout</a></li>
+                  </ul>-->
+                </li>
+                {% endif %}
+            </ul>
+        </div>
+    </nav>
+    <script src="{% static 'sweetalert.min.js' %}"></script>
+    <div class="container-fluid" style="margin-top: 60px">
+    {% block body %}
+    {% endblock %}
+    </div>
+    <nav class="navbar navbar-inverse navbar-fixed-bottom">
+        <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand">© ShelfLife- All rights reserved</a>
+        </div>
+        </div>
+    </nav>
+    {% block script %}
+    {% endblock %}
+    <script src="{% static 'dist/js/bootstrap.js' %}"></script>
+</body>
+</html>

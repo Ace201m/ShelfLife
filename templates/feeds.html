@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    ShelfLife | Feeds
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <div class="jumbotron">
+            <form action="{% url '' %}">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Title</label>
+                    <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="title" placeholder="Title">
+                    <small id="emailHelp" class="form-text text-muted">Headline of news should be in caps</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Content</label>
+                    <input class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required name="content" placeholder="Describe Here...">
+                    <small id="emailHelp" class="form-text text-muted">Headline of news should be in caps</small>
+                </div>
+            </form>
+        </div>
+
+    </div>
+{% endblock %}

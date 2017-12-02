@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Inbox
+{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <table class="table">
+            <tr>
+                <th>Sender</th>
+                <th>Message</th>
+                <th>Time</th>
+                <th>&nbsp;</th>
+            </tr>
+            {% if message %}
+                {% for i in message %}
+                    <tr>
+                        <td>{{ i.sender }}</td>
+                        <td>{{ i.message_text }}</td>
+                        <td>{{ i.message_date }}</td>
+                        <td><a href="{% url 'basic:messagewithdata' i.pk %}"><span class="glyphicon glyphicon-send"></span></a></td>
+                        <td><a href="{% url 'basic:delmessage' i.pk %}"><span class="glyphicon glyphicon-trash"></span></a></td>
+                    </tr>
+                {% endfor %}
+            {% else %}
+                <div style="text-align: center;"><p>No messages yet</p></div>
+            {% endif %}
+        </table>
+    </div>
+{% endblock %}
