@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block body %}
+        <p>&nbsp;</p>
+        <br>
+        <form class="form-register" method="post" action="{% url 'login:sign' %}">
+            {% csrf_token %}
+            <div class="form-register-with-email">
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Create an account</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Username</span>
+                            <input type="text" name="username" required>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Password</span>
+                            <input type="password" name="password" required>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Password Again</span>
+                            <input type="password" name="again" required>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label class="form-checkbox">
+                            <input type="checkbox" name="checkbox" checked>
+                            <span>I agree to the <a href="#">terms and conditions</a></span>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Register</button>
+                    </div>
+
+                </div>
+
+                <a href="{% url 'login:login' %}" class="form-log-in-with-existing">Already have an account? Login here &rarr;</a>
+
+            </div>
+
+        </form>
+        {% if message %}
+            <h1 class="fa-bold">{{ message }}</h1>
+        {% endif %}
+{% endblock %}
+{% block title %}
+    Login
+{% endblock %}

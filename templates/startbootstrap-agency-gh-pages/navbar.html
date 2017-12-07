@@ -1,0 +1,36 @@
+{% load staticfiles %}
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Shelf Life</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'basic:message' %}">Message</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'basic:inbox' %}">Inbox</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'basic:profile' struser  %}"><span class="glyphicon glyphicon-search"></span>&nbsp;Timeline</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="{% url 'basic:logout' %}"><span class="glyphicon glyphicon-user"></span>Log out</a>
+            </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{% url 'basic:query' %}"><span class="glyphicon glyphicon-search"></span>&nbsp;Search</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.1/sweetalert2.all.min.js"></script>

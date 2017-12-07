@@ -1,0 +1,21 @@
+body{
+    background: #f8f8f8;
+}
+.jumbotron{
+    background: bisque;
+    position: relative;
+    width: 400px;
+    margin-left: 375px;
+}
+.btn{
+    border-radius: 10px;
+}
+label{
+    line-height: 20px;
+}
+input{
+    margin-bottom: 10px;
+}
+a{
+    margin-left: 400px;
+}

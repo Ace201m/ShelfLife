@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <!--
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '127810234516260',
+          cookie     : true,
+          xfbml      : true,
+          version    : 'v2.10'
+        });
+          
+        FB.AppEvents.logPageView();   
+          
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "https://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+
+
+        FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+        });
+
+        {
+            status: 'connected',
+            authResponse: {
+                accessToken: '...',
+                expiresIn:'...',
+                signedRequest:'...',
+                userID:'...'
+            }
+        }
+
+        function checkLoginState() {
+          FB.getLoginStatus(function(response) {
+            statusChangeCallback(response);
+          });
+        }
+
+    </script>-->
+    <div class="page-header">
+        <h1 style="font-family: SansSerif">Login</h1>
+    </div>
+    <form action="{% url 'login:login' %}" method="post" style="margin-bottom: 2%">
+        {% csrf_token %}
+        <div class="input-group" style="margin-bottom: 2%">
+            <h1 class="input-group-addon">Name </h1><input class="form-control" name="username" width="20px">
+        </div>
+        <div class="input-group" style="margin-bottom: 2%">
+            <h1 class="input-group-addon">Password</h1><input class="form-control" type="password" name="password">
+        </div>
+        <input class="btn btn-success btn-lg" type="submit">
+    </form>
+    <a href="{% url 'login:sign'%}" style="margin-bottom: 50px">Not Registered</a>
+    <br>
+    <a href="{% url 'social:begin' 'github' %}" style="margin-bottom: 50px">Login with GitHub</a><br>
+    <br>
+    <a href="{% url 'social:begin' 'facebook' %}" style="margin-bottom: 50px">Login with Facebook</a>
+    {% if message %}
+        <h1 class="fa-bold">{{ message }}</h1>
+    {% endif %}
+{% endblock %}

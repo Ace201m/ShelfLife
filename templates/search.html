@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block body %}
+    <form id="content" method="post" action="{% url 'basic:query' %}" class="input-group">
+        {% csrf_token %}
+        <div class="jumbotron">
+            <table border="0" align="center" cellpadding="0">
+            <tr>
+            <input class="form-control" type="text"   name="query" size="25" style="color:#808080;"
+                    maxlength="255" placeholder="Search Site Here"
+                    />
+                <p>&nbsp;</p>
+            </tr>
+            </table>
+        </div>
+    </form>
+    <div>
+        {% for i in get %}
+            <div class="result" style="fill: lightblue">
+                <h4>{{ i }}</h4>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

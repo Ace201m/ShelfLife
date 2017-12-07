@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    Details
+{% endblock %}
+
+{% block body %}
+    <form class="form-register" method="post" action="{% url 'basic:index' %}" enctype="multipart/form-data">
+            {% csrf_token %}
+            <div class="form-register-with-email">
+                <div class="form-white-background">
+
+                    <div class="form-title-row">
+                        <h1>Add Your Details</h1>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>First Name</span>
+                            <input type="text" name="first_name" required>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Last Name</span>
+                            <input type="text" name="last_name" required>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <label>
+                            <span>Image File</span>
+                            <input type="file" name="image" required>
+                        </label>
+                    </div>
+
+                    <div class="form-row">
+                        <button type="submit">Continue</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </form>
+{% endblock %}
